@@ -1,82 +1,53 @@
-<!DOCTYPE html>
-<html lang="en">
+# Simon Says Game
 
-<head>
-    <meta charset="UTF-8">
-    <title>Simon Says Game - README</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 700px;
-            margin: 40px auto;
-            background: #f9f9f9;
-            color: #222;
-        }
+A simple web-based **Simon Says** memory game. Test your memory by repeating the color sequence as it grows with each
+level.
 
-        h1 {
-            color: #4CAF50;
-        }
+---
 
-        ul {
-            margin-left: 20px;
-        }
+## How to Play
 
-        img {
-            max-width: 200px;
-            margin: 20px 0;
-        }
+1. **Start the Game**
+Click the **Start Game** button to begin.
 
-        code {
-            background: #eee;
-            padding: 2px 6px;
-            border-radius: 3px;
-        }
+2. **Watch the Sequence**
+The game will flash a sequence of colored buttons.
+Remember the order!
 
-        .files {
-            margin-bottom: 20px;
-        }
-    </style>
-</head>
+3. **Repeat the Sequence**
+Click the colored buttons in the same order.
+Each level adds a new color to the sequence.
 
-<body>
-    <h1>Simon Says Game</h1>
-    <p>
-        A simple web-based Simon Says memory game. Test your memory by repeating the color sequence as it grows with
-        each level!
-    </p>
+4. **Game Over**
+If you make a mistake, the game ends and shows your score.
+Click **Start Game** to try again.
 
-    <h2>How to Play</h2>
-    <ol>
-        <li><strong>Start the Game</strong><br>
-            Click the <strong>Start Game</strong> button.
-        </li>
-        <li><strong>Watch the Sequence</strong><br>
-            The game will flash a sequence of colored buttons.<br>
-            Remember the order!
-        </li>
-        <li><strong>Repeat the Sequence</strong><br>
-            Click the colored buttons in the same order.<br>
-            Each level adds a new color to the sequence.
-        </li>
-        <li><strong>Game Over</strong><br>
-            If you make a mistake, the game ends and shows your score.<br>
-            Click <strong>Start Game</strong> to try again.
-        </li>
-        <li><strong>Reset</strong><br>
-            Click <strong>Reset Game</strong> to restart at any time.
-        </li>
-    </ol>
+5. **Reset**
+Click **Reset Game** to restart at any time.
 
-    <h2>Files</h2>
-    <ul class="files">
-        <li><code>gameindex.html</code> – Main HTML file</li>
-        <li><code>gamestyle.css</code> – Styles for the game</li>
-        <li><code>gamescript.js</code> – Game logic</li>
-        <li><code>logo.png</code> – Game icon</li>
-    </ul>
+---
 
-    <h2>Preview</h2>
-    <img src="logo.png" alt="Simon Says Game Screenshot">
+## Files
 
-    <hr>
-    <p>Enjoy
+- `gameindex.html` – Main HTML file
+- `gamestyle.css` – Styles for the game
+- `gamescript.js` – Game logic
+- `logo.png` – Game icon
+
+---
+
+## Preview
+
+![Simon Says Game Screenshot](logo.png)
+
+---
+
+## How to Create This Project
+
+### Step 1: Set Up the Project Folder
+
+Create a new directory:
+
+```bash
+mkdir simon-says-game
+cd simon-says-game
