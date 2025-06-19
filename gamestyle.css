@@ -1,0 +1,123 @@
+/* General Reset and Base */
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f4f4f9;
+    min-height: 100vh;
+    text-align: center;
+    padding: 2rem;
+}
+
+/* Headings */
+h1.main-heading {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+h3.second-heading {
+    font-size: 1.4rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+/* Button Grid Container */
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* Row Lines */
+.line-one,
+.line-two {
+    display: flex;
+    gap: 3rem;
+}
+
+/* Buttons */
+.btn {
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.1s ease, box-shadow 0.2s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Colors */
+.red {
+    background-color: #f94144;
+}
+
+.yellow {
+    background-color: #f9c74f;
+    color: #333;
+}
+
+.green {
+    background-color: #90be6d;
+}
+
+.purple {
+    background-color: #577590;
+}
+
+/* Flash Animations */
+.flash {
+    background-color: #ffffff !important;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3) inset;
+}
+
+.userFlash {
+    background-color: #333 !important;
+}
+
+/* Wrong Answer Effect */
+body.red {
+    background-color: #ff4d4d;
+    transition: background-color 0.3s;
+}
+
+.controls {
+    margin-top: 2rem;
+}
+
+.controls button {
+    padding: 0.6rem 1.2rem;
+    margin: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #577590;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.controls button:hover {
+    background-color: #495867;
+}
+
+.controls button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
